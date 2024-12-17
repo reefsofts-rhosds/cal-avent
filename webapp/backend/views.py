@@ -38,5 +38,5 @@ def cmb_eleves_aujourdhui(request):
     return HttpResponse(f'''<h1>Aujourd'hui, { qterandom } élèves vont/va ouvrir leur/sa boite <a href="/eleve-au-hasard/">Cliquez ici pour en connaitre un.</a></h1>''')
 
 def rootpage(request):
-    return HttpResponse(f'''<header><h1>Calendrier de l'avent Noel 2024</h1><h3>Index des pages: <a href="combien/"><button>Combien d'élèves aujourd'hui</button></a>     <a href="eleve-au-hasard/"><button>Tirer un élève au hasard</button></a><a href="ap/mardi/au_hasard/"><button>Tirer au sort le mardi en AP</button></a><a href="ap/jeudi/au_hasard/"><button>Tirer au sort le jeudi en AP</button></a></h3></header><footer style=" vertical-align: bottom"><a href="admin"><button>/!\ADMIN/!\</button></a></footer>''')
+    return HttpResponse(f'''<body style="background-color: ##c90000;"><header style="background-color: ##c90000;"><h1>Calendrier de l'avent Noel 2024</h1><h3>Index des pages: <a href="combien/"><button>Combien d'élèves aujourd'hui</button></a>     <a href="eleve-au-hasard/"><button>Tirer un élève au hasard</button></a><a href="ap/mardi/au_hasard/"><button>Tirer au sort le mardi en AP</button></a><a href="ap/jeudi/au_hasard/"><button>Tirer au sort le jeudi en AP</button></a></h3></header><footer style="background-color: ##c90000;"><a href="admin"><button>/!\ADMIN/!\</button></a></footer></body>''')
 
