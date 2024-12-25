@@ -1,0 +1,1 @@
+echo "Hello, i am Santa's assistant Lewis. I am going to ask you some questions, you just hae to answer."
